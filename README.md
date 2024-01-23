@@ -3,7 +3,7 @@ Este repositorio contiene un proyecto que aborda conceptos de Threads y concurre
 
 ## Ejercicios
 ### [Búsqueda Paralela 1](https://github.com/oscarjuly23/ThreadsPractise/tree/main/src/Exercicis/Exercici3)
-
+Hemmos implementado una clase en Java que permite a dos threads realizar una búsqueda paralela de un entero dentro de una LinkedList. Específicamente, un thread comienza la búsqueda desde el principio de la LinkedList, mientras que el otro inicia la búsqueda desde el final. Al finalizar, se informa cuál de los dos threads encontró primero (si alguno) el número buscado.
 
 ### [Búsqueda Paralela 2](https://github.com/oscarjuly23/ThreadsPractise/tree/main/src/Exercicis/Exercici4)
 Hemos implementado una clase en Java que permite realizar una búsqueda paralela de un entero dentro de un array. La clase contiene el siguiente método:  
