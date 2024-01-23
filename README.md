@@ -2,7 +2,10 @@
 Este repositorio contiene un proyecto que aborda conceptos de Threads y concurrencia. Aquí encontrarás implementaciones en Java que responden a diferentes ejercicios propuestos.
 
 ## Ejercicios
-### [Búsqueda Paralela]()
+### [Búsqueda Paralela 1](https://github.com/oscarjuly23/ThreadsPractise/tree/main/src/Exercicis/Exercici3)
+
+
+### [Búsqueda Paralela 2](https://github.com/oscarjuly23/ThreadsPractise/tree/main/src/Exercicis/Exercici4)
 Hemos implementado una clase en Java que permite realizar una búsqueda paralela de un entero dentro de un array. La clase contiene el siguiente método:  
 
 public static int buscaParalela(int aBuscar, int[] Array, int NumThreads)  
@@ -10,10 +13,10 @@ public static int buscaParalela(int aBuscar, int[] Array, int NumThreads)
 Este método crea tantos hilos como se especifica en NumThreads, divide el array Array en tantas partes como NumThreads, y asigna a cada hilo la parte correspondiente del array para realizar una búsqueda secuencial del valor aBuscar. Si un hilo encuentra el valor, el método devuelve la posición en el array inicial y muestra por pantalla el número de hilo. En caso contrario, el método devuelve -1. La clase también almacena la longitud del array, el número de hilos y el valor a buscar como atributos.
 
 
-### [Paralela & Memoria Compartida]()
+### [Paralela & Memoria Compartida](https://github.com/oscarjuly23/ThreadsPractise/tree/main/src/Exercicis/Exercici5)
 En esta versión, hemos modificado el ejercicio anterior para que los hilos accedan al array mediante memoria compartida. Comparamos los tiempos de búsqueda con el ejercicio anterior y justificamos las diferencias. Se realizaron experimentos con diferentes tamaños de array y números de hilos para evaluar el rendimiento.
 
-### [MergeSort Multithreaded]()
+### [MergeSort Multithreaded](https://github.com/oscarjuly23/ThreadsPractise/tree/main/src/Exercicis/Exercici7)
 Implementamos un programa multihilo en Java que ordena un array recursivamente utilizando el algoritmo Merge Sort. El hilo principal crea 2 hilos, y cada uno crea dos nuevos hilos para ordenar la mitad del array. Este enfoque multihilo mejora la eficiencia del proceso de ordenación.
 
 ## Aàlisis de Resultados:
@@ -45,4 +48,6 @@ Secuencial (nS): 14.900
 
 Se observó un retraso notable en el uso del MergeSort con multithreading en comparación con la ordenación secuencial para los tamaños de datos probados. Esto podría atribuirse a la creación y espera de múltiples threads, lo que puede sobrecargar los recursos del sistema.
 
-
+##
+- @author: Oscar Julian
+- @date: Decemmbre 2022
